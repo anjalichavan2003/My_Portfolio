@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali -Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color:#1E0235;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #170229;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color:#efcf32;
+            font-size: 1.01rem;
+            border-bottom: 2px solid #efcf32;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: #efcf32;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.2rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color:#1E0235;
+            color: #efcf32;
+            border: 2px solid #efcf32;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .leftSection .btn:hover{
+            cursor: pointer;
+            background-color: #efcf32;
+            color:#1E0235 ;
+        }
+
+        .rightSection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: #efcf32;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: #efcf32;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 2px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 107px;
+        }
+
+        .image-top {
+            position: relative;
+            top: -44px;
+            left: -11px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 66px;
+            width: 150px;
+            color: #efcf32;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 88px;
+            color: gray;
+            width: 165px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #170229;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 110px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anjali's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is<span class="purple"> Anjali</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Developer_Girl.png" alt="image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">Tools & Technologies I Use</span>
+            <h1>My Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Html_logo.png" alt="developer-image" width="50px">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        Used to create the basic structure of web pages. It defines elements like headings, paragraphs, images, links, and forms. Ensures proper content organization and accessibility. Works with CSS and JavaScript to build complete web applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="CSS_logo.png" alt="developer-image" width="38px">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Styles web pages to make them visually appealing and responsive. Controls layout, colors, fonts, and animations. Uses techniques like Flexbox and Grid for better design. Helps create a consistent look across different devices.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JS_logo.png" alt="developer-image" width="40">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                    <div class="vertical-desc">
+                        Adds interactivity and dynamic features to web pages. Used for handling user actions, animations, and real-time updates. Works with the DOM to modify page content dynamically. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="developer-image" width="83px">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        A versatile programming language used for building applications, especially backend systems. Supports object-oriented programming for better code organization. Used in web applications, Android development, and enterprise software.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sql_logo2.png" alt="developer-image" width="60px">
+                    <div class="vertical-title">
+                        SQl
+                    </div>
+                    <div class="vertical-desc">
+                        Used to store, manage, and retrieve data from databases. Helps organize structured data using tables and queries. Supports operations like inserting, updating, and deleting records. Used in applications to handle user data efficiently.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-fisrt">
+                <h3>Anjali's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; anjalisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Java Web Developer', 'Full-Stack Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
